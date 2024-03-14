@@ -25,4 +25,4 @@ Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
 
 The runtime complexity is based off of the edges and vertices. The first for loop will iterate n(# of vertices) times to see the amount of edges each vertice has. The second for loop will iterate 
-,(e = # of edges), e times since the length of the list is the amount of edges that vertice has. So overall, the asymptotic complexity will be $\ O(E \cdot N) $. 
+,(e = # of edges), e times since the length of the list is the amount of edges that vertice has. So overall, the asymptotic complexity will be $\ O(e \cdot n) $. 
