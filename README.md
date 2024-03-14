@@ -13,6 +13,9 @@ try not to peek before attempting to solve it on your own.
 What is the runtime complexity of the conversion that you implemented? Does it
 depend on the number of vertices, the number of edges, or both?
 
+The runtime complexity relies on the number of vertices. The for loops are checking every vertice, or square in the matrix which is (vertice x vertice) and checking if an edge exists. It will do this for
+every vertice. The loops will iterate n times each, (n = # of vertices) and the if statement will compare every time. The asymptotic complexity will be n x n because of the nested for loops. So it should be $\O(n^2)$.
+
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
@@ -20,3 +23,5 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+
